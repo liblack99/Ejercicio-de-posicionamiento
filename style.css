@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 600px ;
+    height: 350px;
+    max-height: 700px;
+    border: 1px black solid;
+    border-radius: 16px;
+    text-align: center;
+    background-color: gray;
+    
+}
+div{
+    width: 140px;
+    height: 40px;
+    border: 1px black solid;
+    background-color: red;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+}
+
+img{
+    top:0;
+    width: 100px;
+    height: 140px;
+    object-fit: contain;
+}
+
+
